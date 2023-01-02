@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header,
+main{
+    height: 300px;
+    color: bisque;
+    text-align: center;
+}
+footer{
+    height: 100px;
+    color: brown;
+    text-align: center;
+}
+body{
+    background-image: url(img/northern-lights-ga5d34570b_640.jpg);
+}
+header img{
+    height: 200px;
+    width: 350px;
+}
+table{
+    border: 3px solid saddlebrown;
+    align-content: center;
+    height: 100px;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 10px;
+}
+main table tr th,
+main table tr td{
+    text-align: center;
+    border: 3px solid saddlebrown;
+}
+#BOTONERA ul li{
+       display: inline;
+       margin-left: 100px;
+}
+#BOTONERA ul li a{
+    display: inline-block;
+    background-color: slateblue;
+    color: antiquewhite;
+    margin-top: 15px;
+    text-decoration: none;
+    border: 2px solid rebeccapurple;
+    border-radius: 35px;
+    padding: 2px;
+}
+#BOTONERA ul li a:hover{
+    background-color: black;
+    color: blueviolet;
+    border-color: 6 solid slategrey;
+    border-radius: 50;
+    padding: 6px;
+}
